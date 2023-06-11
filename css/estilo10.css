@@ -1,0 +1,107 @@
+.modal-container {
+    background-color: rgba(200, 200, 200, 0.2);
+    margin: 1rem 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    z-index: 1000;
+}
+
+.modal-container .modal {
+    width: 600px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.modal-container .modal .content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 1rem;
+
+}
+.modal-container .modal .content .icon{
+    margin-right: 10px ;
+}
+
+.modal-container .modal .content .message .text {
+    color: #222;
+    font-size: 14px;
+
+}
+
+
+.modal-container .modal .content .message .title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.modal-container .modal .content .message .title h3{
+    margin: 0;
+}
+
+.modal-container .modal .actions{
+    padding: 10px 0;
+    display: flex;;
+    justify-content: end;
+    gap: 10px;
+
+}
+
+
+.modal-container .modal .actions button[class*="btn"]{
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    min-width: 120px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.modal-container .modal .actions .btn-confirm {
+    background-color: #0684c4;
+
+}
+
+.modal-container .modal .actions .btn-confirm:hover {
+    background-color: #056797;
+}
+
+.modal-container .modal .actions .btn-cancel {
+    background-color: red;
+}
+.modal-container .modal .actions .btn-cancel:hover{
+    background-color: #cc2936;;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .modal-container .modal{
+        width: 90%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+   .modal-container .modal .actions{
+        flex-direction: column;
+    }
+}
