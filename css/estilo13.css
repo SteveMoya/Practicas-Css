@@ -1,0 +1,156 @@
+.profile-container {
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.click-me {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.profile-container .profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+
+}
+
+.profile-container .profile .info {
+    position: absolute;
+    width: 340px;
+    min-height: 300px;
+    max-height: 355px;
+    background-color: #333;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow:     
+        0 0 20px rgba(0, 0, 0, 0.5),
+        0 0px 40px rgba(0, 0, 0, 0.2),
+        inset 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    /*display: none;*/
+    display: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.profile-container .profile:hover .info {
+    display: block;
+}
+
+.profile-container .profile a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.profile-container .profile a:hover {
+    text-decoration: underline;
+}
+
+.profile-container .profile .info .header { 
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.profile-container .profile .info .header img {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-container .profile .info .header button {
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile-container .profile .info .header button:hover {
+    background-color: #eee;
+}
+.profile-container .profile .users-info {
+    padding: 10px 0;
+
+}
+.profile-container .profile .users-info .name {
+    font-weight: bolder;
+
+}
+.profile-container .profile .users-info .username{
+    color: #aaa;
+
+}
+
+.profile-container .profile .description {
+    padding: 10px 0 2px 0;
+    flex: 1;
+
+}
+.profile-container .profile .description a {
+    color: #008cff;
+
+}
+
+.profile-container .profile .description a:hover {
+    text-decoration: underline;
+}
+
+.profile-container .profile .follower-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    font-weight: 600;
+    flex-direction: row-reverse;
+    padding: 10px 0;
+}
+.profile-container .profile .follower-container a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.profile-container .profile .follower-container .number {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.profile-container .profile .other {
+    padding: 10px 0;
+    display: flex;
+}
+.profile-container .profile .other a{
+    color: #999;
+    display: flex;
+
+}
+
+.profile-container .profile .other a .photos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    margin-right: 20px;
+
+    
+}
+
+.profile-container .profile .other .photos img {
+    width: 34px;
+    height: 34px;
+    border: solid 1.5px #333;
+    margin-right: -20px;
+
+}
