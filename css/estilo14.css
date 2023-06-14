@@ -1,0 +1,153 @@
+.weather-container {
+    width: 450px;
+    
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10vh ;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.weather-container .current{
+    background: rgb(30, 107, 221);
+    background: linear-gradient(
+        0deg,
+        rgba(30, 107, 221, 1) 0%,
+        rgba(3, 116, 255, 1) 42%,
+        rgba(3, 191, 255, 1) 100%
+      );
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 40px;
+
+}
+
+.weather-container .current .city {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+.weather-container .current .day {
+    text-align: center;
+
+}
+
+.weather-container .current .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.weather-container .current .row .icon-weather img {
+    width: 128px;
+
+}
+.weather-container .current .row .temperature {
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    
+    align-items: center;
+}
+
+.weather-container .current .row .temperature .temperature-now {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.weather-container .current .row .temperature .temperature-low {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.weather-container .current .row .status {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.weather-container .current .more {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+.weather-container .current .item {
+    flex: 1;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.weather-container .current .item .value {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.weather-container .current .item .type {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.weather-container .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 40px;
+
+}
+
+.weather-container .list .day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.weather-container .list .day .name {
+    width: 32px;
+    text-align: left;
+
+}
+
+.weather-container .list .day .weather {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.weather-container .list .day .weather .status {
+    color: rgba(255, 255, 255, 0.5);
+}
+.weather-container .list .day .temperature {
+    text-align: right;
+    display: flex;
+    gap: 5px;
+
+}
+
+.weather-container .list .day .temperature .temperature-high {
+    color: whitesmoke;
+}
+
+
+.weather-container .list .day .temperature .temperature-low {
+    color: rgba(255, 255, 255, 0.5);
+
+}

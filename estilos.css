@@ -11,11 +11,7 @@
 @import url(css/estilo11.css);/*Complete*/
 @import url(css/estilo12.css);/*Complete*/
 @import url(css/estilo13.css);/*Complete*/
-@import url(css/estilo14.css);/*Progress*/
-
-
-
-
+@import url(css/estilo14.css);/*Complete*/
 ::-webkit-scrollbar{
     width: 4px;
     color:white;
@@ -64,7 +60,6 @@ body {
 .main h1:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
-
 
 .footer-end{
     background: #ccc;
